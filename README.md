@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🧙‍♂️ Harry Potter Spell Duel RPG
 
-**URL**: https://lovable.dev/projects/b816262c-76f8-464a-a44d-cf97e16384a0
+Welcome to **Harry Potter Spell Duel RPG**, a magical game inspired by the wizarding world of Harry Potter! 🪄⚡ This game allows you to cast spells, challenge AI opponents or friends in turn-based duels, and climb the ranks as a powerful wizard.
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- Select difficulty levels (Easy, Medium, Hard) that determine AI intelligence
+- Duel against AI or another player on the same machine
+- Cooldown, casting speed, and stamina cost system
+- Achievement and title system
+- Spell dictionary with error handling and autocorrection
+- Harry Potter-themed UI and background music 🎶
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b816262c-76f8-464a-a44d-cf97e16384a0) and start prompting.
+## 📘 Spell Dictionary
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```json
+{
+  "Expelliarmus": { "effect": "disarm", "cooldown": 2, "stamina": 5 },
+  "Stupefy": { "effect": "stun", "cooldown": 3, "stamina": 6 },
+  "Protego": { "effect": "shield", "cooldown": 1, "stamina": 3 },
+  "Avada Kedavra": { "effect": "insta-kill", "cooldown": 10, "stamina": 20 }
+}
 ```
 
-**Edit a file directly in GitHub**
+Spells are validated and auto-corrected for minor spelling mistakes.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧠 AI Difficulty
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Easy:** Randomized decisions
+- **Medium:** Counter-based logic
+- **Hard:** Predictive and strategic play with spell memory
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🏆 Achievement & Title System
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Earn titles like:
+- `Apprentice`
+- `Spell Caster`
+- `Auror`
+- `Dueling Master`
 
-## How can I deploy this project?
+Achievements based on streaks, spell usage, and rare wins.
 
-Simply open [Lovable](https://lovable.dev/projects/b816262c-76f8-464a-a44d-cf97e16384a0) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📁 Project Structure
 
-Yes, you can!
+```
+Harry-Potter-RPG/
+├── public/
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/spells.json
+│   ├── hooks/
+│   └── pages/
+├── README.md
+└── package.json
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 👨‍💻 Contributing
+
+Pull requests are welcome. Please follow the theme and spirit of the project.
+```bash
+# Fork the repo and clone
+git clone https://github.com/YOUR_USERNAME/Harry-Potter-RPG.git
+# Create a branch
+git checkout -b feature-new-spell
+# Commit and push
+git commit -m "Add new spell"
+git push origin feature-new-spell
+```
+
+---
+
+## 💬 Support and Inspiration
+
+Inspired by **J.K. Rowling's Harry Potter** universe and fan-made magical games.
+This is a **fan project**, and not affiliated with Warner Bros or J.K. Rowling.
+
+If you encounter any issue or want to suggest spells, contact:
+
+📧 Ryan Dante - [github.com/RyanDante](https://github.com/RyanDante)
+
+---
+
+## 🌟 Enjoy Dueling!
+
+“Words are, in my not-so-humble opinion, our most inexhaustible source of magic.” — *Albus Dumbledore*
